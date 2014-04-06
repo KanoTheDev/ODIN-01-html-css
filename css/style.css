@@ -20,7 +20,10 @@ a.search-button:hover {
 	width: 100%;
 	height: 100px;
 	padding-top: 20px;
-	padding-left: -100px;
+}
+
+.mini-logo {
+	padding-bottom: 20px;
 }
 
 .navigation {
@@ -47,12 +50,11 @@ li.top {
 	width: 100%;
 }
 
-img {
-
+.logo-container > img {
+	 width: 30%;
      margin-left: auto;
      margin-right: auto;
      padding-bottom: auto;
-	 width: 30%;
 	 height: auto;
 	 display: block;
 	 margin: 0 auto;
@@ -78,7 +80,13 @@ img {
 }
 
 .footer-right {
-    float:right;
-    width:290px;
+    float: right;
+}
 
+.footer-left > a {
+	padding: 10px;
+}
+
+.footer-right > a {
+	padding: 10px;
 }
